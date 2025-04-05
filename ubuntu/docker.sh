@@ -24,7 +24,4 @@ sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plug
 ## Add your user to the docker group
 sudo usermod -aG docker $USER
 newgrp docker
-## Test Docker installation
-docker run --rm hello-world
-docker rmi hello-world
 echo "Docker install end..."

@@ -9,7 +9,7 @@ sudo apt-get update && sudo apt-get upgrade -y
 # Install n and Node.js
 echo "Node.js install start..."
 sudo apt-get install -y nodejs npm
-npm install n -g
-n install lts
+sudo npm install n -g
+sudo n install lts
 sudo apt purge -y nodejs npm
 echo "Node.js install end..."
