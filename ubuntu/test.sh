@@ -1,0 +1,10 @@
+docker --version
+pyenv --version
+python --version
+pip --version
+n --version
+node --version
+npm --version
+aws --version
+sam --version
+jq --version
