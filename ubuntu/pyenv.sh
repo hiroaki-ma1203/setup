@@ -8,6 +8,7 @@ sudo apt-get update && sudo apt-get upgrade -y
 
 # Install pyenv and python
 echo "pyenv and python install start..."
+sleep 5
 ## Install dependencies
 sudo apt-get install -y \
   build-essential \
@@ -49,3 +50,4 @@ pyenv update
 pyenv install 3.13.2
 pyenv global 3.13.2
 echo "pyenv and python install end..."
+sleep 5

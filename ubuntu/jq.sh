@@ -7,5 +7,7 @@ sudo apt-get update && sudo apt-get upgrade -y
 
 # Install jq
 echo "jq install start..."
+sleep 5
 sudo apt-get install -y jq
 echo "jq install end..."
+sleep 5

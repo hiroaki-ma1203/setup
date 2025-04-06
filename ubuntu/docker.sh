@@ -7,6 +7,7 @@ sudo apt-get update && sudo apt-get upgrade -y
 
 # Install Docker
 echo "Docker install start..."
+sleep 5
 ## Add Docker's official GPG key:
 sudo apt-get update
 sudo apt-get install ca-certificates curl
@@ -23,4 +24,6 @@ sudo apt-get update
 sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ## Add your user to the docker group
 sudo usermod -aG docker $USER
+sudo systemctl restart docker
 echo "Docker install end..."
+sleep 5
